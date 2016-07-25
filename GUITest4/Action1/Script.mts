@@ -30,5 +30,10 @@ Else
 End If
 
 
+ @@ hightlight id_;_Browser("Browser").Page("Page").WebElement("1")_;_script infofile_;_ZIP::ssf18.xml_;_
+set a= Browser("Browser").Page("Page").WebList("id:=ul").ChildObjects @@ hightlight id_;_Browser("Browser").Page("Page").WebElement("click 123")_;_script infofile_;_ZIP::ssf22.xml_;_
+MsgBox a.Count
+
+
 Browser("Browser").Close()
 
