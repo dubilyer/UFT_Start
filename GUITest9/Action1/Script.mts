@@ -12,10 +12,7 @@ With Browser("Advantage Shopping").Page("Advantage Shopping")
 	If currentUser<>expectedUser Then
 		Reporter.ReportEvent micFail, "Auth failed", ""
 	End If
-	userElement.Click
-	.WebElement("xpath:=//*[@id='loginMiniTitle']/label[2]").Click
+	
 End With 
-Function a
-	MsgBox "AAAA"
-End Function
+
 
