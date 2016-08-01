@@ -15,4 +15,7 @@ With Browser("Advantage Shopping").Page("Advantage Shopping")
 	userElement.Click
 	.WebElement("xpath:=//*[@id='loginMiniTitle']/label[2]").Click
 End With 
+Function a
+	MsgBox "AAAA"
+End Function
 
