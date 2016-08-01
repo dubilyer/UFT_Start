@@ -1,1 +1,1 @@
-﻿RunAction "Action2", oneIteration
+﻿RunAction "MainTest", oneIteration

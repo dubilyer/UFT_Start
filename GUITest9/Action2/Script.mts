@@ -1,5 +1,10 @@
-﻿RunAction "LogInAction", oneIteration
-RunAction "LogOfAction", oneIteration
+﻿RunAction "LogInAction"
 
-Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("SpeakersImg").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("SpeakersImg")_;_script infofile_;_ZIP::ssf1.xml_;_
+Set localPage = pageFactory("main")
+
+With localPage
+	waitAndClick .WebElement("SpeakersImg")
+End With
+ @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("SpeakersImg")_;_script infofile_;_ZIP::ssf1.xml_;_
+RunAction "LogOfAction"
 
